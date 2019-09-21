@@ -6,7 +6,7 @@
 /*   By: jcanteau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/22 14:03:24 by jcanteau          #+#    #+#             */
-/*   Updated: 2018/11/28 14:45:35 by jcanteau         ###   ########.fr       */
+/*   Updated: 2019/09/21 16:47:16 by jcanteau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strnew(size_t size)
 
 	if ((new = (char *)ft_memalloc(sizeof(char) * (size + 1))) != NULL)
 	{
-		new[size + 1] = '\0';
+		new[size] = '\0';
 		return (new);
 	}
 	else
