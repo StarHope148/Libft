@@ -6,7 +6,7 @@
 #    By: jcanteau <jcanteau@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/30 13:08:57 by jcanteau          #+#    #+#              #
-#    Updated: 2019/09/21 17:05:32 by jcanteau         ###   ########.fr        #
+#    Updated: 2019/10/04 14:34:27 by jcanteau         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,6 +70,7 @@ SRCS +=	ft_lstdel.c
 SRCS +=	ft_lstadd.c
 SRCS +=	ft_lstiter.c
 SRCS +=	ft_lstmap.c
+SRCS += get_next_line.c
 
 OBJ = $(SRCS:.c=.o)
 
@@ -77,7 +78,9 @@ CFLAG = -Wall -Wextra -Werror
 DEBUG = -fsanitize=address,undefined -g3
 
 CC = gcc
-HEAD = libft.h
+
+HEAD += libft.h
+HEAD += get_next_line.h
 
 all: $(NAME)
 
