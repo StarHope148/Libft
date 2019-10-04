@@ -6,7 +6,7 @@
 /*   By: jcanteau <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 14:24:02 by jcanteau          #+#    #+#             */
-/*   Updated: 2018/11/30 12:39:12 by jcanteau         ###   ########.fr       */
+/*   Updated: 2019/10/04 14:51:22 by jcanteau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include "get_next_line.h"
 # define BUFF_SIZE 1000
 
 typedef struct		s_list
