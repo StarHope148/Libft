@@ -6,11 +6,11 @@
 /*   By: jcanteau <jcanteau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 18:03:32 by jcanteau          #+#    #+#             */
-/*   Updated: 2019/10/09 18:03:34 by jcanteau         ###   ########.fr       */
+/*   Updated: 2019/10/09 18:06:38 by jcanteau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		sign(int x)
+int		ft_sign(int x)
 {
 	return ((x > 0) ? 1 : -1);
 }
