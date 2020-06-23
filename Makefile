@@ -6,7 +6,7 @@
 #    By: jcanteau <jcanteau@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/30 13:08:57 by jcanteau          #+#    #+#              #
-#    Updated: 2019/10/09 18:05:14 by jcanteau         ###   ########.fr        #
+#    Updated: 2020/06/23 18:40:03 by jcanteau         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,6 +75,7 @@ SRCS += ft_split_count.c
 SRCS += ft_tab2d_new.c
 SRCS += ft_abs.c
 SRCS += ft_sign.c
+SRCS += rgba_to_uint32.c
 
 OBJ = $(SRCS:.c=.o)
 
