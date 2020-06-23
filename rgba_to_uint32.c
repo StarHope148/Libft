@@ -13,7 +13,7 @@
 #include "libft.h"
 
 unsigned int	rgba_to_uint32(unsigned char r, unsigned char g,
-                            unsigned char b, unsigned char a)
+				unsigned char b, unsigned char a)
 {
 	return ((r << 24) + (g << 16) + (b << 8) + a);
 }
