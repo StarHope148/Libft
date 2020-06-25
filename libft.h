@@ -6,7 +6,7 @@
 /*   By: jcanteau <jcanteau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 14:24:02 by jcanteau          #+#    #+#             */
-/*   Updated: 2020/06/23 19:31:15 by jcanteau         ###   ########.fr       */
+/*   Updated: 2020/06/25 18:09:59 by jcanteau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
-unsigned int		rgba_to_uint32(unsigned char r, unsigned char g,
+unsigned int		ft_rgba_to_uint32(unsigned char r, unsigned char g,
 									unsigned char b, unsigned char a);
 
 #endif
